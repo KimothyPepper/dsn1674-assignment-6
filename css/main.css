@@ -1,0 +1,42 @@
+.body {
+  position:absolute;
+  width:320px;
+
+
+
+}
+
+
+.brain{
+  position:absolute;
+  width:48px;
+  right:50%;
+
+
+
+}
+
+.left {
+  position:absolute;
+  left:50%;
+  width:125px;
+  top:-30px;
+
+}
+
+.right{
+  position:absolute;
+  right:50%;
+  width:125px;
+  top:-30px;
+
+
+
+
+
+
+}
+
+img:hover {
+  z-index:100;
+}
