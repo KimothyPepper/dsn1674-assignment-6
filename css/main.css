@@ -4,35 +4,19 @@ html {
 }
 
 *, *::before, *::after {
-	box-sizing:inherit;}
+    box-sizing:inherit;}
 
   header{
-  	position: relative;
-  	overflow: hidden;
-  	background-color: #2c3950;
-  	width: 100%;}
+  position: relative;
+  overflow: hidden;
+  background-color: #2c3950;
+  width: 100%;}
 
-    .robot{
-    	position: relative;
-    	width: 320px;
-    	margin: 0em auto;}
-
-.body {
-  position:absolute;
-  width:320px;
-  bottom:28.5;
-  right:50%;
-
-
-}
-
-.brain{
-  position:absolute;
-  width:46px;
-  left:48.5%;
-  bottom:57.7%;
-
-}
+  .robot{
+  position: relative;
+  width: 320px;
+  margin: 0em auto;
+  }
 
 .left {
   position:absolute;
@@ -40,6 +24,22 @@ html {
   width:125px;
   bottom:28.5;
 
+
+}
+
+.brain {
+  position:absolute;
+  width:46px;
+  left:48.5%;
+  bottom:57.7%;
+
+}
+
+.robot-body {
+  display:block;
+  width:320px;
+  top:4em;
+  margin-top:72px;
 
 }
 
